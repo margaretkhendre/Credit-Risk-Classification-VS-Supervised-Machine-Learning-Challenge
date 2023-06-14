@@ -18,7 +18,7 @@ The y values, or loan status of individuals in the dataset are what we want to p
 To start, the data was split into training and testing sets, next, X and y variables were created and the data was split using train_test_split, then a logistic regression model was created with the original data and fit using the training data. Predictions were made next and then the models performance was tested by calculating the accuracy score, generating a confusion matrix, and printing a classification report. After this, a logistic regression model was predicted with resampled training data using the RandomOverSampler module and repeating the previous process, only this time using that resampled data.
 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-The logistic regression module was used to aid the predictions and the RandomOVerSampler was used to created the resampled data in order to fit the new model and make further predictions.
+The logistic regression module was used to aid predictions throughout the analysis, and the RandomOverSampler was used to create resampled data. This allowed the original training data to be fit to the newly created model where further predictions and performance could be evaluated.
 
 ## Results
 
@@ -26,11 +26,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Accuracy score: 99%
 
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Accuracy score: 99%
 
 ## Summary
 
