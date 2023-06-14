@@ -54,4 +54,4 @@ It seems that Machine Learning Model 2 performs the best because we see a genera
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-It is important to predict both the ones and zeros in order to determine a the creditworthiness of borrowers. Being able to compare the two allows for better predictions and conclusions to be made.
+It is important to predict both the ones and zeros in order to determine a the creditworthiness of borrowers. Being able to compare the two allows for well-rounded predictions and conclusions to be made.
